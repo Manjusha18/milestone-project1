@@ -1,7 +1,7 @@
 const express = require('express')
 const { FieldValue } = require('firebase-admin/firestore')
 const app = express()
-const port = 3000
+const port = 8383
 const { db } = require('./firebase.js')
 
 app.use(express.json())
